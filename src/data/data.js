@@ -163,8 +163,8 @@ export const testimonials = [
     id: 1,
     img: "pablo_garcia",
     name: "Pablo García Calvo",
-    profession: "Teacher",
-    country: "Spain",
+    profession: "Profesor",
+    country: "España",
     star: 5,
     url: "https://students-control.netlify.app/",
     quote:

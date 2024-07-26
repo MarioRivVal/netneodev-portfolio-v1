@@ -33,7 +33,7 @@ const TestiminialItem = ({ item }) => {
         </div>
         <p>{quote}</p>
         <a className="link-btn" href={url} target="_blank">
-          Project Page
+          Proyecto
           <div className="small-icon">
             <ArrowRightIcon />
           </div>

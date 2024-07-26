@@ -1,15 +1,16 @@
 import NetneoLogo from "./NetneoLogo";
 import SocialIcons from "./SocialIcons";
+import { getCurrentYear } from "../functions";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <SocialIcons />
       <p>
-        2024 <span>NetNeo</span>, all right reserved
+        {getCurrentYear()} <span>NetNeo</span>, Derechos Reservados
       </p>
       <p>
-        Look at this page code at{" "}
+        Mira el código de esta página en{" "}
         <span>
           <a
             href="https://github.com/MarioRivVal/netneodev-portfolio-v1"

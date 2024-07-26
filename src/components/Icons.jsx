@@ -239,6 +239,8 @@ export const ChevronRightIcon = () => {
   );
 };
 
+// FOR THE FUTURE DARK MODE
+
 //export const SunIcon = () => {
 //   return (
 //     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

@@ -1,6 +1,6 @@
 import { projectsData } from "../data/projects";
 import { ArrowRightIcon, CloseIcon } from "./Icons";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { tools } from "../data/data";
 
 const ProjectsContainer = () => {

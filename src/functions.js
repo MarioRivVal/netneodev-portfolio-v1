@@ -31,6 +31,12 @@ export const smoothScrolling = (e) => {
 };
 // -------------------------------------------------------------//
 // -------------------------------------------------------------//
+export const getCurrentYear = () => {
+  const currentYear = new Date().getFullYear();
+  return currentYear;
+};
+// -------------------------------------------------------------//
+// -------------------------------------------------------------//
 export const useTiltEffect = (elements) => {
   useEffect(() => {
     const handleMouseMove = (e) => {

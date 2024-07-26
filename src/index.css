@@ -70,7 +70,6 @@ body {
   width: 90%;
   height: 90%;
   max-width: 175rem;
-  /* max-height: 85rem; */
   background-color: #fff;
   border-radius: 2rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
@@ -170,7 +169,6 @@ body {
   object-position: top;
 }
 .ticket-details-box {
-  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -501,7 +499,6 @@ body {
 .section,
 footer {
   padding: 6rem;
-  /* border-top: .1rem solid var(--lightgray-color); */
 }
 
 .portfolio-projects-box {
@@ -523,7 +520,6 @@ footer {
     var(--circle-color-2) 60%,
     var(--circle-color-3) 98%
   );
-
   overflow: hidden;
 }
 .portfolio-card img {
@@ -659,8 +655,8 @@ footer {
   border-radius: 2rem;
   background-color: var(--white-trans-color);
 
-  transition: transform 0.5s ease-out; /* Añadir una transición suave */
-  will-change: transform; /* Mejora el rendimiento */
+  transition: transform 0.5s ease-out;
+  will-change: transform;
 }
 .stats-box span {
   font-size: 9.8rem;
@@ -960,7 +956,6 @@ footer {
   position: relative;
   height: 100%;
   max-width: 175rem;
-  /* max-height: 85rem; */
   display: flex;
   flex-direction: column;
   padding: 6rem;
@@ -1431,7 +1426,6 @@ footer {
     margin: 0;
   }
   .ticket-img-box {
-    /* width: 80%; */
     height: 100%;
     min-height: 50%;
     align-self: center;
@@ -1515,11 +1509,6 @@ footer {
     padding: 2rem;
   }
 
-  /* .fulltext-icon {
-    top: 2rem;
-    right: 2rem;
-  } */
-
   .big-circle {
     top: -14rem;
     width: 40rem;
@@ -1532,5 +1521,3 @@ footer {
     height: 20rem;
   }
 }
-
-/* <a href="https://storyset.com/technology">Technology illustrations by Storyset</a> */
