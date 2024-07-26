@@ -66,7 +66,7 @@ export const blog = [
   },
   {
     id: 2,
-    title: "Donde esta mi trabajo?",
+    title: "Donde está mi trabajo?",
     img: "looking_for_job",
 
     text: [
@@ -130,7 +130,7 @@ export const blog = [
           "¡Las clases del Máster han comenzado! Entro con mucho entusiasmo y una actitud muy positiva sobre mi futuro profesional. Mientras continúo con el proceso de homologación de mi título de bachiller, espero con ansias el comienzo del FP que será en unos meses.",
           "El Máster en Data Analytics es muy interesante, y estoy viendo que será una experiencia completamente nueva que moldeará mi perfil de programador. Es un área de trabajo distinta al desarrollo de software, casi una profesión diferente. Una de las cosas que más me gustan es que aprenderé a usar herramientas informáticas como Excel y Power BI, y lenguajes como SQL y Python, acercándome más a mi objetivo de ser Desarrollador Fullstack.",
           "Mientras sigo mis estudios, también trabajo temporalmente en otro empleo para cubrir mis gastos. En mi tiempo libre, leo y practico con el ordenador. Junto a The Power Business School, he asistido a eventos donde hemos aprendido a mejorar nuestra visibilidad usando LinkedIn, así que me he propuesto aumentar mi red de contactos lo más posible. Ahora tengo más de 370 conexiones, y publico cada logro o proyecto en mi perfil de LinkedIn y también en Instagram.",
-          "Todo esto requiere tiempo y dedicación, y a veces creo que hago demasiado. Me pregunto si debo enfocarme más en ser programador o creador de contenido, pero también pienso que al inicio es necesario para ser más visible. Sigo trabajando en mi nueva página web, que ya casi está lista. Es más compleja y está hecha con React JS, cargando dinámicamente todos los datos. Me gusta mucho por su estilo, el formulario que envía correos y porque tiene una sección de blog donde cuento todo mi proceso, que es lo que estás leyendo ahora. Aunque la estructura del código no es perfecta, una vez que la publique trabajaré en una segunda versión para agregar Tailwind CSS y TypeScript.",
+          "Todo esto requiere tiempo y dedicación, y a veces creo que hago demasiado. Me pregunto si debo enfocarme más en ser programador o creador de contenido, pero también pienso que al inicio es necesario para ser más visible. Sigo trabajando en mi nueva página web, que ya casi está lista. Es más compleja y está hecha con React JS, cargando dinámicamente todos los datos. Me gusta mucho por su estilo, el formulario que envía correos y porque tiene una sección de blog donde cuento todo mi proceso, que es lo que estás leyendo ahora. Aunque la estructura del código no es perfecta, una vez que la publique trabajaré en una segunda versión para mejorar el código y agregar también Tailwind CSS y TypeScript.",
         ],
       },
       {

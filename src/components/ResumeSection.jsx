@@ -8,7 +8,7 @@ const ResumeSection = () => {
   useTiltEffect(".tools-box .tool");
   return (
     <section className="section" id="resume">
-      <h4 className="title-section">Curriculum</h4>
+      <h4 className="title-section">Currículum</h4>
       <h2 className="secondary-title">
         <span>Educación y</span>
         <span>Experiencia.</span>
@@ -43,7 +43,11 @@ const ResumeSection = () => {
           ))}
         </div>
       </div>
-      <a className="btn-violet" href="#">
+      <a
+        className="btn-violet"
+        href="documents/CV Mario Valverde Español.pdf"
+        download
+      >
         Descarga CV
         <div className="small-icon">
           <DownloadIcon />

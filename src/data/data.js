@@ -123,7 +123,7 @@ export const workExperience = [
   {
     id: 2,
     year: "2010 - 2015",
-    subject: "Chief Enternainer",
+    subject: "Chief Entertainer",
     school: "MSC Cruises",
     img: "msc",
     description:

@@ -7,7 +7,7 @@ export const projectsData = [
     gitURL: "https://github.com/MarioRivVal/calories-wise-app",
     img: "calories-wise-mockup-1",
     description:
-      "La aplicación Calorie Tracker es una aplicación web responsiva diseñada con Figma para ayudar a los usuarios a llevar un registro de las calorías consumidas y quemadas. Cuenta con listas separadas para actividades de alimentación y ejercicio, utilizando conceptos avanzados de React como hooks personalizados, memoización, efectos y reductores para una gestión eficiente del estado. La aplicación está construida utilizando Vite, React, TypeScript y Tailwind CSS, asegurando una interfaz de usuario moderna y responsiva. Animaciones suaves mejoran la versión móvil de la aplicación, proporcionando una experiencia de usuario agradable.",
+      "La aplicación Calorie Tracker es una aplicación web responsive diseñada con Figma para ayudar a los usuarios a llevar un registro de las calorías consumidas y quemadas. Cuenta con listas separadas para actividades de alimentación y ejercicio, utilizando conceptos avanzados de React como hooks personalizados, memoización, efectos y reductores para una gestión eficiente del estado. La aplicación está construida utilizando Vite, React, TypeScript y Tailwind CSS, asegurando una interfaz de usuario moderna y responsive. Animaciones suaves mejoran la versión móvil de la aplicación, proporcionando una experiencia agradable al usuario.",
     technologies: ["Figma", "React JS", "Tailwind", "TypeScript"],
   },
   {
@@ -18,7 +18,7 @@ export const projectsData = [
     gitURL: "https://github.com/MarioRivVal/NetNeoWeb-V1",
     img: "portfolio_version1",
     description:
-      "Este es mi primer portafolio que muestra mis habilidades y proyectos, con un enfoque en un diseño limpio, animaciones fluidas y un rendimiento eficiente. Está construido usando HTML, CSS y potenciado por clases de JavaScript, adhiriéndose a las mejores prácticas y optimizado para motores de búsqueda. La interfaz de usuario presenta agradables animaciones utilizando la API de Observer, dibujos SVG, desplazamiento de imágenes y una barra de navegación fija para una experiencia de usuario mejorada.",
+      "Este es mi primer portfolio que muestra mis habilidades y proyectos, con un enfoque en un diseño limpio, animaciones fluidas y un rendimiento eficiente. Está construido usando HTML, CSS y potenciado por clases de JavaScript, adhiriéndose a las mejores prácticas y optimizado para motores de búsqueda. La interfaz de usuario presenta agradables animaciones utilizando la API de Observer, dibujos SVG, desplazamiento de imágenes y una barra de navegación fija para una experiencia de usuario mejorada.",
     technologies: ["HTML5", "CSS3", "Sass", "JavaScript"],
   },
   {
@@ -42,7 +42,7 @@ export const projectsData = [
       "https://github.com/MarioRivVal/refactored-projects/tree/main/9-student-control%20v2",
     img: "students_manager",
     description:
-      "Administre eficientemente los pagos de los estudiantes con nuestra aplicación Student's Manager. Esta aplicación web progresiva (PWA) se puede guardar en su computadora portátil como una aplicación nativa, permitiendo el control de los pagos por cada estudiante divididos en trimestres. Almacene de forma segura los datos de los estudiantes y los registros de pagos utilizando IndexedDB. Cada tres meses, genere e imprima facturas de pagos de estudiantes. Incluye una sección para modificar el número de factura en caso de error. Desarrollada con HTML, Sass y JavaScript, la aplicación aprovecha el uso de clases para una base de código limpia y fácil de mantener.",
+      "Administre eficientemente los pagos de los estudiantes con nuestra aplicación Student's Manager. Esta aplicación web progresiva (PWA) se puede guardar en su ordenador portátil como una aplicación nativa, permitiendo el control de los pagos por cada estudiante divididos en trimestres. Almacene de forma segura los datos de los estudiantes y los registros de pagos utilizando IndexedDB. Cada tres meses, genere e imprima facturas de pagos de estudiantes. Incluye una sección para modificar el número de factura en caso de error. Desarrollada con HTML, Sass y JavaScript, la aplicación aprovecha el uso de clases para una base de código limpia y fácil de mantener.",
     technologies: ["HTML5", "CSS3", "Sass", "JavaScript"],
   },
   {
@@ -53,7 +53,7 @@ export const projectsData = [
     gitURL: "https://github.com/MarioRivVal/YumBox",
     img: "yum-box",
     description:
-      "La aplicación web YumBox es una aplicación encantadora que obtiene recetas de una API y las categoriza para una fácil navegación. Los usuarios pueden ver los detalles de las recetas, incluyendo los pasos de preparación y los ingredientes. Las recetas favoritas se pueden guardar para verlas más tarde. La aplicación cuenta con un diseño fresco y vibrante, con animaciones fluidas y diseños responsivos para dispositivos pequeños.",
+      "La aplicación web YumBox es una aplicación encantadora que obtiene recetas de una API y las categoriza para una fácil navegación. Los usuarios pueden ver los detalles de las recetas, incluyendo los pasos de preparación y los ingredientes. Las recetas favoritas se pueden guardar para verlas más tarde. La aplicación cuenta con un diseño fresco y vibrante, con animaciones fluidas y diseños responsive para dispositivos pequeños.",
     technologies: ["HTML5", "Figma", "Sass", "JavaScript"],
   },
   {
@@ -64,7 +64,7 @@ export const projectsData = [
     gitURL: "https://github.com/MarioRivVal/Vets-Appoinment-Manager",
     img: "pawcare",
     description:
-      "PawCare es una aplicación de ReactJS construida utilizando la herramienta Vite para un desarrollo rápido. Permite a los administradores de clínicas veterinarias gestionar eficientemente las citas para mascotas que necesitan asistencia. La aplicación proporciona una interfaz fácil de usar para crear, editar y eliminar citas, con persistencia de datos lograda a través del almacenamiento local. El diseño UI/UX fue meticulosamente elaborado utilizando Figma para asegurar una experiencia visualmente atractiva e intuitiva.",
+      "PawCare es una aplicación de ReactJS construída utilizando la herramienta Vite para un desarrollo rápido. Permite a los administradores de clínicas veterinarias gestionar eficientemente las citas para mascotas que necesitan asistencia. La aplicación proporciona una interfaz fácil de usar para crear, editar y eliminar citas, con persistencia de datos lograda a través del almacenamiento local. El diseño UI/UX fue meticulosamente elaborado utilizando Figma para asegurar una experiencia visualmente atractiva e intuitiva.",
     technologies: ["Figma", "CSS3", "React JS", "JavaScript"],
   },
   {

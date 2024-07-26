@@ -25,7 +25,7 @@ const Header = ({ handleOpenModal }) => {
             </a>
           </li>
           <li className="clickable">
-            <a href="#">
+            <a href="documents/CV Mario Valverde Español.pdf" download>
               Descarga CV
               <div className="small-icon">
                 <DownloadIcon />

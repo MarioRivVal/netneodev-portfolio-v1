@@ -11,7 +11,12 @@ const Footer = () => {
       <p>
         Look at this page code at{" "}
         <span>
-          <a href="#">GitHub</a>
+          <a
+            href="https://github.com/MarioRivVal/netneodev-portfolio-v1"
+            target="_blank"
+          >
+            GitHub
+          </a>
         </span>
       </p>
 

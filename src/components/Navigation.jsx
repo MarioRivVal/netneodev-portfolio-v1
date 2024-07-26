@@ -47,7 +47,7 @@ const Navigation = () => {
               href="#about"
               onClick={(e) => handleSmoothScrolling(e)}
             >
-              About
+              Sobre Mí
             </a>
           </li>
           <li>
@@ -56,7 +56,7 @@ const Navigation = () => {
               href="#resume"
               onClick={(e) => handleSmoothScrolling(e)}
             >
-              Resume
+              Currículum
             </a>
           </li>
           <li>
@@ -65,7 +65,7 @@ const Navigation = () => {
               href="#testimonial"
               onClick={(e) => handleSmoothScrolling(e)}
             >
-              Testimonials
+              Testimonios
             </a>
           </li>
         </ul>

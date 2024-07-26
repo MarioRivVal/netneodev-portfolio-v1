@@ -19,11 +19,11 @@ const AboutSection = ({ handleOpenModal }) => {
           <p>Años de Experiencia</p>
         </div>
         <div>
-          <span>40+</span>
+          <span>30+</span>
           <p>Proyectos completados</p>
         </div>
         <div>
-          <span>30+</span>
+          <span>20+</span>
           <p>Herramientas conocidas</p>
         </div>
       </div>
@@ -31,20 +31,21 @@ const AboutSection = ({ handleOpenModal }) => {
         <div className="about-me-text">
           <p>
             Como desarrollador web con más de dos años de experiencia, he tenido
-            la oportunidad de crear y gestionar más de 40 proyectos personales y
+            la oportunidad de crear y gestionar más de 30 proyectos personales y
             3 proyectos para clientes reales.
           </p>
           <p>
-            Con un amplio conocimiento de más de 30 herramientas útiles para el
+            Con un amplio conocimiento de más de 20 herramientas útiles para el
             desarrollo y diseño web, manejo lenguajes como JavaScript y
             TypeScript, hasta frameworks y bibliotecas como React JS y
             TailwindCss. Para el diseño uso Figma que me permite crear
             interfaces de usuario intuitivas y atractivas.
           </p>
           <p>
-            Realicé un curso en mantenimiento de sistemas microinformáticos y
-            actualmente estoy cursando un máster en Data Analytics y un FP en
-            desarrollo de aplicaciones multiplataforma.
+            Realicé un curso en Mantenimiento de Sistemas Microinformáticos y
+            actualmente estoy cursando un Máster Ofical en Análisis de Datos a
+            la vez que realizo Formación Profesional Superior en Desarrollo de
+            Aplicaciones Multiplataforma.
           </p>
         </div>
         <div className="about-contact">
