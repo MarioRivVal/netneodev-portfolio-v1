@@ -113,7 +113,7 @@ export const education = [
 export const workExperience = [
   {
     id: 1,
-    year: "2023",
+    year: "Octubre 2023 Actualidad",
     subject: "Desarrollador Autonomo",
     school: "NetNeo Web",
     img: "netneo",

@@ -4,7 +4,9 @@ import { PortfolioIcon } from "./Icons";
 import { projectsData } from "../data/projects";
 
 const PortfolioSection = ({ handleOpenModal }) => {
-  const mainProjects = projectsData.slice(0, 4);
+  const mainProjects = projectsData.filter(
+    (project) => project.favorite === true
+  );
 
   return (
     <section className="section" id="portfolio">
