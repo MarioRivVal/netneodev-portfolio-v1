@@ -6,7 +6,11 @@ const PortfolioCard = ({ project }) => {
   const { img, title, url } = project;
   return (
     <div className="portfolio-card">
-      <img src={`img/projects/${img}.png`} alt={title} />
+      <picture>
+        <source loading="lazy" srcSet={`img/projects/${img}_light.webp`} />
+        <img loading="lazy" src={`img/projects/${img}.png`} alt={title} />
+      </picture>
+
       <div className="project-details">
         <p className="project-title">{title}</p>
 

@@ -33,7 +33,7 @@ const SocialIcons = () => {
           <GithubIcon />{" "}
         </span>
       </a>
-      <a href="https://www.instagram.com/netneoweb/" target="_blank">
+      <a href="https://www.instagram.com/netneodev/" target="_blank">
         <span>
           {" "}
           <InstagramIcon />{" "}

@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 
 const ToolItem = ({ tool }) => {
+
+  
   const { name, img } = tool;
 
   return (

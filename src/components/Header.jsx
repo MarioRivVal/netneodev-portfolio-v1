@@ -7,7 +7,7 @@ const Header = ({ handleOpenModal }) => {
       <div>
         <h4 className="title-section">Hello!</h4>
         <h1 className="header-title">
-          <span>Soy Mario</span>
+          <span>Soy Mario,</span>
           <span>Desarrollador Web</span>
         </h1>
 
@@ -25,7 +25,7 @@ const Header = ({ handleOpenModal }) => {
             </a>
           </li>
           <li className="clickable">
-            <a href="documents/CV Mario Valverde Español.pdf" download>
+            <a href="documents/CV_Mario_Rivera_esp_digital.pdf" download>
               Descarga CV
               <div className="small-icon">
                 <DownloadIcon />

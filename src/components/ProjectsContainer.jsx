@@ -40,13 +40,23 @@ const ProjectsContainer = () => {
       <h2 className="secondary-title">
         <span>Viaje de Desarrollo</span>
       </h2>
-      <div className="projects-cards columns-2">
+      <div className="projects-cards columns-3">
         {projectsData.map((item) => (
           <div className="projects-card" key={item.id}>
-            <img
-              src={`img/projects/${item.img}.png`}
-              alt={`${item.title} project image`}
-            />
+            <picture>
+              <source
+                loading="lazy"
+                srcSet={`img/projects/${item.img}_light.webp`}
+                type="image/webp"
+              />
+
+              <img
+                loading="lazy"
+                src={`img/projects/${item.img}.png`}
+                alt={`${item.title} project image`}
+              />
+            </picture>
+
             <div className="projects-details">
               <p className="projects-title">{item.title}</p>
               <a
@@ -89,8 +99,8 @@ const ProjectsContainer = () => {
 
           <div className="project-alldetails-tools">
             {projectSelected.technologies
-              ? getTechnologies().map((item) => (
-                  <div className="tool-small-box">
+              ? getTechnologies().map((item,i) => (
+                  <div className="tool-small-box" key={i}>
                     <img
                       className="tool-small-img"
                       src={`img/logos/${item.img}.png`}

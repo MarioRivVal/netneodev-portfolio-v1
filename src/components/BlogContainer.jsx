@@ -43,7 +43,11 @@ const BlogContainer = () => {
       <div className="blog-cards columns-3">
         {blog.map((item) => (
           <div className="blog-card" key={item.id}>
-            <img src={`img/blog/${item.img}.jpeg`} />
+            <picture>
+<source  loading="lazy" srcSet= {`img/blog/${item.img}_light.webp`}/>
+            <img loading="lazy"  src={`img/blog/${item.img}.jpeg`} alt="blog-img" />
+            </picture>
+
             <div className="blog-details">
               <p className="blog-title">{item.title}</p>
 

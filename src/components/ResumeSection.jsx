@@ -14,7 +14,7 @@ const ResumeSection = () => {
         <span>Experiencia.</span>
       </h2>
       <p className="resume-text">
-        Autodidacta apasionado con más de 12 cursos online en programación
+        Autodidacta apasionado con más de 8 cursos online en programación
         completados. Nivel C1 en inglés y portugués, y C2 en italiano y español.
         Excelentes habilidades de comunicación y liderazgo adquiridas durante
         mas de 15 años como coordinador de eventos en cruceros y hoteles.
@@ -38,7 +38,7 @@ const ResumeSection = () => {
       <div className="resume-section">
         <h3 className="tertiary-title">Mi herramientas favoritas</h3>
         <div className="tools-box">
-          {tools.map((tool) => (
+          {tools.filter(item=> item.fav).map((tool) => (
             <ToolItem key={tool.id} tool={tool} />
           ))}
         </div>

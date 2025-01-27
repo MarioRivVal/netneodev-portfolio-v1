@@ -9,14 +9,17 @@ const TicketSide = () => {
         <div className="ticket-header">
           <NetneoLogo />
           <div className="ticket-img-box">
-            <img src="img/developer-img-no-bg.png" alt="" />
+            <picture>
+              <source srcSet="img/developer_lighter.webp" />
+              <img src="img/developer.png" alt="" />
+            </picture>
           </div>
         </div>
         <div className="ticket-details-box">
           <div className="ticket-profession-box">
             <p className="profession">Profesión:</p>
             <p>Desarrollador Web</p>
-            <p>Analista de Datos</p>
+            <p>FullStack</p>
           </div>
           <div className="ticket-profession-box">
             <p className="profession">Contactos:</p>

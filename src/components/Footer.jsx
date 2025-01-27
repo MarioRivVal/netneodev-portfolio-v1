@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <SocialIcons />
       <p>
-        {getCurrentYear()} <span>netNeo_web</span>, Derechos Reservados
+        {getCurrentYear()} <span>netneo_dev</span>, Derechos Reservados
       </p>
       <p>
         Mira el código de esta página en{" "}
