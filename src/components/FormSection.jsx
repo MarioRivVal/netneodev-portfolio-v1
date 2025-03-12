@@ -80,7 +80,7 @@ const FormSection = () => {
     <section className="section" id="contact">
       <h4 className="title-section">Hablemos</h4>
       <h2 className="secondary-title">
-        <span>Cuentame sobre</span>
+        <span>Cuentame</span>
         <span>tu idea</span>
       </h2>
       <form className="form" ref={form} onSubmit={sendEmail}>

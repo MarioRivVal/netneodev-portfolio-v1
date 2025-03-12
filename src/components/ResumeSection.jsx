@@ -38,14 +38,16 @@ const ResumeSection = () => {
       <div className="resume-section">
         <h3 className="tertiary-title">Mi herramientas favoritas</h3>
         <div className="tools-box">
-          {tools.filter(item=> item.fav).map((tool) => (
-            <ToolItem key={tool.id} tool={tool} />
-          ))}
+          {tools
+            .filter((item) => item.fav)
+            .map((tool) => (
+              <ToolItem key={tool.id} tool={tool} />
+            ))}
         </div>
       </div>
       <a
         className="btn-violet"
-        href="documents/CV Mario Valverde Español.pdf"
+        href="documents/CV_Mario_Rivera_esp_digital.pdf"
         download
       >
         Descarga CV

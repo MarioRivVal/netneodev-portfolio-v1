@@ -1,5 +1,17 @@
 export const projectsData = [
   {
+    id: 11,
+    title: "Neo Caffee",
+    type: "Sitio Web",
+    url: "https://neocafe-web.netlify.app/",
+    gitURL: "https://github.com/MarioRivVal/netCafe_web",
+    img: "neocafe",
+    description:
+      "Este proyecto es un sitio web para una cafetería diseñado como una aplicación de página única (SPA). Con un diseño moderno y responsivo, este sitio web presenta animaciones fluidas y componentes reutilizables desarrollados con Vanilla JavaScript.",
+    technologies: ["Figma", "CSS3", "HTML5", "JavaScript", "Vite"],
+    favorite: true,
+  },
+  {
     id: 10,
     title: "Java Practices Repo",
     type: "Repositorio Github",
@@ -8,15 +20,16 @@ export const projectsData = [
     img: "java_repo",
     description:
       "Repositorio de aprendizaje en Java que incluye ejercicios, ejemplos y preguntas clave diseñados para repasar conceptos fundamentales y documentar mi progreso paso a paso en este lenguaje. Este recurso está pensado tanto para mi propio desarrollo como para ayudar a otros estudiantes interesados en reforzar su conocimiento, proporcionando una colección organizada de materiales útiles para revisar y practicar Java",
-    technologies: ["Markdown" , "Java"],
+    technologies: ["Markdown", "Java"],
     favorite: false,
   },
   {
     id: 9,
     title: "Netneo Travel",
-    type: "Sitio Web",
+    type: "Sitio web",
     url: "https://neotravel-master.netlify.app/",
-    gitURL: "https://github.com/MarioRivVal/my_fullstack_master_challenges/tree/main/07_practica_DOM",
+    gitURL:
+      "https://github.com/MarioRivVal/my_fullstack_master_challenges/tree/main/07_practica_DOM",
     img: "neotravels",
     description:
       "Neotravel es un proyecto completo de una página web básica que cumple con los estándares de desarrollo web actuales. Gracias a su diseño simple pero efectivo, es una excelente práctica para reforzar habilidades en HTML, CSS y JavaScript, incluyendo el uso de flex-box y grid, la manipulación del DOM para crear elementos dinámicos, así como para aprender buenas prácticas de optimización y SEO.",
@@ -26,7 +39,7 @@ export const projectsData = [
   {
     id: 8,
     title: "Design Agency Proto",
-    type: "Sitio Web",
+    type: "Sitio web",
     url: "https://freelancer-agency-web.netlify.app/",
     gitURL: "https://github.com/MarioRivVal/NetNeo-Freelance-Web-V1",
     img: "design_agency",
@@ -50,7 +63,7 @@ export const projectsData = [
   {
     id: 6,
     title: "NetNeo V1.0",
-    type: "Sitio Web",
+    type: "Sitio web",
     url: "https://myweb-neonet.netlify.app/",
     gitURL: "https://github.com/MarioRivVal/NetNeoWeb-V1",
     img: "portfolio_1",
@@ -70,7 +83,7 @@ export const projectsData = [
     description:
       "La aplicación de pedidos del restaurante That's Amore es una aplicación web diseñada para optimizar la toma de pedidos en un restaurante italiano. Permite gestionar los pedidos de manera eficiente al mostrar la fecha y hora actual, asignar comensales a mesas específicas y tomar pedidos de una lista categorizada de platos. La aplicación actualiza el resumen del pedido de manera dinámica, permite seleccionar el porcentaje de propina y muestra una factura detallada que incluye la hora de inicio, los platos, las propinas, los precios y los totales. La aplicación cuenta con la función de impresión de facturas y actualiza automáticamente el estado de las mesas para indicar cuándo una mesa está ocupada. El personal puede modificar los detalles según sea necesario, y todos los datos se guardan utilizando el almacenamiento local.",
     technologies: ["Figma", "React JS", "Tailwind", "TypeScript"],
-    favorite: true,
+    favorite: false,
   },
   {
     id: 4,
@@ -112,12 +125,12 @@ export const projectsData = [
   {
     id: 1,
     title: "Valverde BioNature",
-    type: "Sition Web",
+    type: "Sitio web",
     url: "https://valverde-bionature.netlify.app/",
     gitURL: "https://github.com/MarioRivVal/Valverde-BioNature",
     img: "valverde",
     description:
-      "Valverde BioNature es una página web estática dedicada a promover un estilo de vida natural y la alimentación orgánica. Este sitio web de una sola página muestra la belleza de la naturaleza y los beneficios de vivir de manera orgánica a través de contenido atractivo y animaciones fluidas. Está construido utilizando HTML, SASS y JavaScript, y cuenta con rotaciones de tarjetas, efectos en los botones y transiciones para imágenes y navegación.",
+      "Valverde BioNature es una página web estática dedicada a promover un estilo de vida natural y la alimentación orgánica. Este Sitio web de una sola página muestra la belleza de la naturaleza y los beneficios de vivir de manera orgánica a través de contenido atractivo y animaciones fluidas. Está construido utilizando HTML, SASS y JavaScript, y cuenta con rotaciones de tarjetas, efectos en los botones y transiciones para imágenes y navegación.",
     technologies: ["HTML5", "CSS3", "Sass", "JavaScript"],
     favorite: false,
   },

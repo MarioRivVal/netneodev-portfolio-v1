@@ -1,94 +1,103 @@
 export const tools = [
   {
-    id: 5,
-    name: "HTML5",
-    img: "html5",
-    fav:false
-  },
-  {
     id: 1,
     name: "CSS3",
     img: "css3",
-    fav:true
-  },
-  {
-    id: 6,
-    name: "JavaScript",
-    img: "javascript",
-    fav:true
-  },
-  {
-    id: 3,
-    name: "Figma",
-    img: "figma",
-    fav:true
+    fav: true,
   },
   {
     id: 2,
     name: "Git",
     img: "git",
-    fav:false
+    fav: false,
+  },
+  {
+    id: 3,
+    name: "Figma",
+    img: "figma",
+    fav: true,
   },
   {
     id: 4,
     name: "GitHub",
     img: "github",
-    fav:true
+    fav: true,
   },
   {
-    id: 11,
-    name: "Sass",
-    img: "sass",
-    fav:false
+    id: 5,
+    name: "HTML5",
+    img: "html5",
+    fav: false,
   },
+
   {
-    id: 10,
-    name: "React JS",
-    img: "reactjs",
-    fav:true
+    id: 6,
+    name: "JavaScript",
+    img: "javascript",
+    fav: true,
   },
   {
     id: 7,
     name: "Mongo DB",
     img: "mongodb",
-    fav:false
+    fav: false,
   },
   {
     id: 8,
     name: "My SQL",
     img: "mysql",
-    fav:true
+    fav: true,
   },
   {
     id: 9,
     name: "Node JS",
     img: "nodejs",
-    fav:false
+    fav: false,
   },
+  {
+    id: 10,
+    name: "React JS",
+    img: "reactjs",
+    fav: true,
+  },
+
+  {
+    id: 11,
+    name: "Sass",
+    img: "sass",
+    fav: false,
+  },
+
   {
     id: 12,
     name: "Tailwind",
     img: "tailwind",
-    fav:false
+    fav: false,
   },
   {
     id: 13,
     name: "TypeScript",
     img: "typescript",
-    fav:true
+    fav: true,
   },
   {
     id: 14,
     name: "Markdown",
     img: "markdown",
-    fav:false
+    fav: false,
   },
   {
     id: 15,
     name: "Java",
     img: "java",
-    fav:true
-  }
+    fav: true,
+  },
+  {
+    id: 16,
+    name: "Vite",
+    img: "vite",
+    fav: false,
+  },
 ];
 
 export const education = [
@@ -96,28 +105,26 @@ export const education = [
     id: 1,
     year: "2024 - 2026",
     subject: " Formación profesional DAM",
-    school: "The Power Business School - Spain",
+    school: "The Power Business School - España",
     img: "the-power",
-    description:
-      " FP Oficial de 2 años en Desarrollo de aplicaciones multiplataforma.",
+    description: " FP Oficial en Desarrollo de aplicaciones multiplataforma.",
   },
   {
     id: 2,
-    year: "Sep 2024 - Mar 2025",
+    year: "Sep 2024 - Mar 2026",
     subject: "Desarrollo Web Fullstack",
-    school: "The Power Business School - Spain",
+    school: "The Power Business School - España",
     img: "the-power",
-    description:
-      "Master de 6 meses en Desarrollo Fullstack de Sitios y aplicaciones Web",
+    description: "Master en Desarrollo Fullstack de Sitios y aplicaciones Web",
   },
   {
     id: 3,
     year: "Ene 2024 - May 2024",
     subject: "Desarrollo Aplicaciones con Tecnologias Web",
-    school: "Grupo Aspasia - Spain",
+    school: "Grupo Aspasia - España",
     img: "aspasia",
     description:
-      "Curso presencial de 590 horas para creación de aplicaciones web, lado cliente y lado servidor ",
+      "Curso presencial de 590 horas. Aplicaciones web, lado cliente y lado servidor ",
   },
 ];
 export const workExperience = [

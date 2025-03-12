@@ -23,8 +23,8 @@ const TicketSide = () => {
           </div>
           <div className="ticket-profession-box">
             <p className="profession">Contactos:</p>
-            <a href="tel:+34642469683">+34 642469683</a>
-            <a href="mailto:netneoweb.gmail.com">netneoweb.gmail.com</a>
+            <a href="tel:+34642469683">+34 642 469 683</a>
+            <a href="mailto:netneo.web@gmail.com">info@netneo.es</a>
           </div>
           <div className="ticket-languages-box">
             <p className="languages">Idiomas hablados:</p>

@@ -15,7 +15,7 @@ const AboutSection = ({ handleOpenModal }) => {
       </h2>
       <div className="stats-box">
         <div>
-          <span>2+</span>
+          <span>3+</span>
           <p>Años de Experiencia</p>
         </div>
         <div>
@@ -30,22 +30,22 @@ const AboutSection = ({ handleOpenModal }) => {
       <div className="about-me">
         <div className="about-me-text">
           <p>
-            Como desarrollador web con más de dos años de experiencia, he tenido
-            la oportunidad de crear y gestionar más de 10 proyectos personales y
-            2 proyectos para clientes reales.
+            Como desarrollador web con más de tres años de experiencia, he
+            tenido la oportunidad de crear y gestionar más de 10 proyectos
+            personales y 2 proyectos para clientes reales.
           </p>
           <p>
-            Con un amplio conocimiento de más de 20 herramientas útiles para el
-            desarrollo y diseño web, manejo lenguajes como JavaScript y
-            TypeScript, hasta frameworks y bibliotecas como React JS, Express y
-            TailwindCss. Para el diseño uso Figma que me permite crear
-            interfaces de usuario intuitivas y atractivas.
+            Amplio conocimiento de herramientas útiles para el desarrollo y
+            diseño web, lenguajes como JavaScript y TypeScript y Java, hasta
+            frameworks y bibliotecas como React JS, Express y TailwindCss.
+            Utilizo de Figma para la creación de interfaces de usuario.
           </p>
           <p>
-            Realicé un curso presencial para desarrollo web del lado del cliente y el servidor y
-            actualmente estoy ampiando mis conocimientos con un Máster Oficial en
-            Desarrollo Web Fullstack a la vez que realizo una Formación
-            Profesional Superior en Desarrollo de Aplicaciones Multiplataforma.
+            Realicé un curso presencial para desarrollo web del lado del cliente
+            y el servidor y actualmente estoy ampiando mis conocimientos con un
+            Máster Oficial en Desarrollo Web Fullstack a la vez que realizo una
+            Formación Profesional Superior en Desarrollo de Aplicaciones
+            Multiplataforma.
           </p>
         </div>
         <div className="about-contact">
@@ -54,12 +54,12 @@ const AboutSection = ({ handleOpenModal }) => {
             <p>Mario Rivera Valverde</p>
           </div>
           <div>
-            <p>Mobil</p>
+            <p>Teléfono</p>
             <p>+34 642 469 683</p>
           </div>
           <div>
             <p>Email</p>
-            <p>netneoweb.gmail.com</p>
+            <p>info@netneo.es</p>
           </div>
           <SocialIcons />
         </div>
@@ -69,7 +69,7 @@ const AboutSection = ({ handleOpenModal }) => {
         data-section="blog"
         onClick={(e) => handleOpenModal(e)}
       >
-        Mi Blog
+        Mi Historia
         <div className="small-icon">
           <BlogIcon />
         </div>
