@@ -22,11 +22,11 @@ const Header = ({ handleOpenModal }) => {
           </li>
           <li
             className=" clickable"
-            data-section="blog"
+            data-section="post"
             onClick={(e) => handleOpenModal(e)}
           >
             <a>
-              Mi Historia
+              Mis Posts
               <div className="small-icon">
                 <BlogIcon />
               </div>

@@ -4,6 +4,7 @@ import { getDataset } from "./functions";
 import Header from "./components/Header";
 import BlogContainer from "./components/BlogContainer";
 import ProjectsContainer from "./components/ProjectsContainer";
+import PostContainer from "./components/PostContainer";
 import Navigation from "./components/Navigation";
 import TicketSide from "./components/TicketSide";
 import PortfolioSection from "./components/PortfolioSection";
@@ -33,6 +34,8 @@ const App = () => {
       return <BlogContainer />;
     } else if (sectionSelected === "projects") {
       return <ProjectsContainer />;
+    } else if (sectionSelected === "post") {
+      return <PostContainer />;
     }
 
     return null;

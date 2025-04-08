@@ -1,57 +1,59 @@
 import { Fragment, useEffect, useState } from "react";
 import { ArrowRightIcon, CloseIcon } from "./Icons";
-import { blog } from "../data/blog";
+import { postData } from "../data/post";
 import { getDataset } from "../functions";
 
-const BlogContainer = () => {
+const PostContainer = () => {
   const [modalActive, setModalActive] = useState(false);
-  const [blogSelected, setBlogSelected] = useState("");
-  const [fullText, setFullText] = useState([]);
+  const [postSelected, setPostSelected] = useState("");
+  const [post, setPost] = useState({});
 
   const handleBlogTextActive = (e) => {
     const dataTitle = getDataset(e);
 
-    setBlogSelected(dataTitle);
+    setPostSelected(dataTitle);
     setModalActive(true);
+    console.log(postSelected);
   };
 
   useEffect(() => {
-    if (blogSelected) {
-      getFullText();
+    if (postSelected) {
+      findPost();
     }
-  }, [blogSelected]);
+  }, [postSelected]);
 
-  const getFullText = () => {
-    const section = blog.filter((item) => item.title === blogSelected);
-    if (section.length > 0) {
-      setFullText(section[0].text);
-    }
+  const findPost = () => {
+    const section = postData
+      .filter((item) => item.title === postSelected)
+      .at(0);
+    setPost(section);
+    console.log(post);
   };
 
   const handleCloseModal = () => {
     setModalActive(false);
-    setBlogSelected("");
-    setFullText([]);
+    setPostSelected("");
+    setPost({});
   };
 
   return (
     <div className="blog-container">
-      <h4 className="title-section">Mi Blog</h4>
+      <h4 className="title-section">Mis Posts</h4>
       <h2 className="secondary-title">
         {" "}
-        <span>Dev y Experiencias</span>
+        <span>Experiencias y Opiniones</span>
       </h2>
       <div className="blog-cards columns-3">
-        {blog.map((item) => (
+        {postData.map((item) => (
           <div className="blog-card" key={item.id}>
             <picture>
               <source
                 loading="lazy"
-                srcSet={`img/blog/${item.img}_light.webp`}
+                srcSet={`img/post/${item.img}_light.webp`}
               />
               <img
                 loading="lazy"
-                src={`img/blog/${item.img}.jpeg`}
+                src={`img/post/${item.img}.jpeg`}
                 alt="blog-img"
               />
             </picture>
@@ -85,28 +87,33 @@ const BlogContainer = () => {
         >
           <CloseIcon />
         </div>
-        <h4 className="title-section">Mi Blog</h4>
+        <h4 className="title-section">Mis Posts</h4>
         <h2 className="secondary-title">
           {" "}
-          <span>{blogSelected}</span>
+          <span>{post.title}</span>
         </h2>
-        <div className="blog-fulltext-box">
-          {modalActive
-            ? fullText.map((item, i) => (
-                <Fragment key={i}>
-                  <p className="blog-part">{item.part}</p>
-                  <p className="blog-fulltext">
-                    {item.paragraph.map((item, i) => (
-                      <span key={i}>{item}</span>
-                    ))}
-                  </p>
-                </Fragment>
-              ))
-            : null}
+        <div className="post-box">
+          <picture>
+            <source loading="lazy" srcSet={`img/post/${post.img}_light.webp`} />
+            <img
+              loading="lazy"
+              src={`img/post/${post.img}.jpeg`}
+              alt="blog-img"
+            />
+          </picture>
+          <div className="post-fulltext-box">
+            {modalActive && post.text
+              ? post.text.map((item, i) => (
+                  <Fragment key={i}>
+                    <p className="post-fulltext">{item}</p>
+                  </Fragment>
+                ))
+              : null}
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default BlogContainer;
+export default PostContainer;
