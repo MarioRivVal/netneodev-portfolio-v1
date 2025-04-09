@@ -58,6 +58,10 @@ const PostContainer = () => {
               />
             </picture>
 
+            <div className="post-date">
+              <p>{item.date}</p>
+            </div>
+
             <div className="blog-details">
               <p className="blog-title">{item.title}</p>
 
@@ -93,15 +97,19 @@ const PostContainer = () => {
           <span>{post.title}</span>
         </h2>
         <div className="post-box">
-          <picture>
-            <source loading="lazy" srcSet={`img/post/${post.img}_light.webp`} />
-            <img
-              loading="lazy"
-              src={`img/post/${post.img}.jpeg`}
-              alt="blog-img"
-            />
-          </picture>
           <div className="post-fulltext-box">
+            <picture>
+              <source
+                loading="lazy"
+                srcSet={`img/post/${post.img}_light.webp`}
+              />
+              <img
+                loading="lazy"
+                src={`img/post/${post.img}.jpeg`}
+                alt="blog-img"
+              />
+            </picture>
+            <p className="post-fulltext-date">{post.date}</p>
             {modalActive && post.text
               ? post.text.map((item, i) => (
                   <Fragment key={i}>

@@ -1158,16 +1158,33 @@ footer {
   margin-bottom: 2rem;
 }
 
-.post-box picture {
-  width: 150%;
-  height: 100%;
+.post-fulltext-box picture {
+  width: 100%;
+  height: fit-content;
+  display: block;
+  padding: 0% 20% 5% 20%;
+}
+
+.post-fulltext-date {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  color: var(--gray-color);
 }
 
 .post-box img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 2rem;
+}
+
+.post-date {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  font-size: 1.8rem;
+  background-color: var(--white-trans-color);
+  color: inherit;
+  padding: 1rem 2rem;
 }
 
 /* PROJECTS */
@@ -1422,7 +1439,8 @@ footer {
   .projects-cards {
     grid-template-columns: 1fr;
   }
-  .blog-fulltext-box {
+  .blog-fulltext-box,
+  .post-fulltext-box {
     column-count: 1;
   }
 
