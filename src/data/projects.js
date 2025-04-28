@@ -1,8 +1,45 @@
 export const projectsData = [
   {
+    id: 14,
+    title: "CV Digital",
+    type: "Pagina web",
+    url: "https://proyecto-web-component-12.netlify.app/",
+    gitURL:
+      "https://github.com/MarioRivVal/Dynamic-DOM-Builder-with-Multi-Language-Support",
+    img: "cv_digital",
+    description:
+      "Enfoque dinámico para construir elementos de páginas web directamente desde objetos de JavaScript. Desarrollado con TypeScript. Demuestra modularidad, capacidad de respuesta y características avanzadas como soporte multi-idioma y un modo oscuro preferido por el usuario.",
+    technologies: ["CSS3", "TypeScript", "Vite"],
+    favorite: false,
+  },
+  {
+    id: 13,
+    title: "Find it",
+    type: "Aplicación Web",
+    url: "https://finditunsplash.netlify.app/",
+    gitURL: "https://github.com/MarioRivVal/master_web_asincrono",
+    img: "findit",
+    description:
+      "Find It, una app inspirada en Pinterest que desarrollé para mi Fullstack Master. Gestión de solicitudes API con límites, optimizando recursos con LocalStorage y animaciones fluidas mediante la API de Observer. Diseñada con Figma y desarrollada con Vite y Vanilla JavaScript, enfrenté retos como sliders interactivos, Dark/Light mode persistente y diseño responsivo.",
+    technologies: ["Figma", "CSS3", "HTML5", "JavaScript", "Vite"],
+    favorite: true,
+  },
+  {
+    id: 12,
+    title: "Inventory V2",
+    type: "Aplicación de consola",
+    url: "",
+    gitURL: "https://github.com/MarioRivVal/inventory_app_v2",
+    img: "inventory",
+    description:
+      "Esta es una aplicación de consola Java para gestionar un inventario y una tienda. Permite a los usuarios realizar diversas operaciones como agregar nuevos productos, mostrar productos del inventario y de la tienda, mover productos entre el inventario y la tienda, actualizar la información de los productos, vender productos y eliminar productos. La aplicación utiliza una interfaz basada en menús para la interacción del usuario.",
+    technologies: ["Java"],
+    favorite: false,
+  },
+  {
     id: 11,
     title: "Neo Caffee",
-    type: "Sitio Web",
+    type: "Sition Web",
     url: "https://neocafe-web.netlify.app/",
     gitURL: "https://github.com/MarioRivVal/netCafe_web",
     img: "neocafe",
@@ -15,7 +52,7 @@ export const projectsData = [
     id: 10,
     title: "Java Practices Repo",
     type: "Repositorio Github",
-    url: "https://github.com/MarioRivVal/my_java_practices",
+    url: "",
     gitURL: "https://github.com/MarioRivVal/my_java_practices",
     img: "java_repo",
     description:
@@ -96,7 +133,7 @@ export const projectsData = [
     description:
       "Administre eficientemente los pagos de los estudiantes con nuestra aplicación Student's Manager. Esta aplicación web progresiva (PWA) se puede guardar en su ordenador portátil como una aplicación nativa, permitiendo el control de los pagos por cada estudiante divididos en trimestres. Almacene de forma segura los datos de los estudiantes y los registros de pagos utilizando IndexedDB. Cada tres meses, genere e imprima facturas de pagos de estudiantes. Incluye una sección para modificar el número de factura en caso de error. Desarrollada con HTML, Sass y JavaScript, la aplicación aprovecha el uso de clases para una base de código limpia y fácil de mantener.",
     technologies: ["HTML5", "CSS3", "Sass", "JavaScript"],
-    favorite: true,
+    favorite: false,
   },
   {
     id: 3,

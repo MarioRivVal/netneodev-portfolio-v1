@@ -1,5 +1,24 @@
 export const postData = [
   {
+    id: 2,
+    tag: "titulitis",
+    title: "¿España: La Nación de la Titulitis? ",
+    date: "22 Abril 2025",
+    img: "titulitis",
+    text: [
+      "Una vez, un buen amigo y analista de datos me dijo: 'En España somos de mucha -titulitis-'. Al principio, no quise aceptarlo. Sin embargo, la vida pronto me mostró que tal vez tenía algo de razón.",
+      "Después de dos años estudiando programación de manera autodidacta, decidí lanzarme al mercado laboral. Comencé postulándome a puestos junior y trainee, pensando que era el camino lógico para empezar. Pero, tras múltiples rechazos, algo llamó mi atención: una aparente obsesión en las ofertas laborales por un requisito clave… el título académico.",
+      "Por curiosidad, amplié mis horizontes y empecé a aplicar a ofertas de trabajo en Italia, un país donde viví por 20 años y cuyo idioma domino a la perfección. Para mi sorpresa, obtuve dos entrevistas en poco tiempo. Lo que al principio atribuí a la suerte, pronto me reveló un patrón claro: en Italia, muchas empresas no exigían títulos académicos en sus ofertas, mientras que en España casi todas lo hacían.",
+      "Recuerdo en especial una experiencia con el dueño de una pequeña empresa IT en España. Me rechazó con una frase que no olvidaré: 'Sin título no haces nada. Esos cursillos online sirven para poco; sí, sabes programar algo, pero al momento del verdadero reto, todos se vienen abajo.'",
+      "Esa declaración me enfureció en el momento. Pensé: '¿Por qué no me das la oportunidad de demostrarte que soy diferente? De que puedo aportar algo valioso a tu empresa?' Pero, tras reflexionar, entendí algo importante: no podía cambiar el sistema, pero sí podía adaptarme a él.",
+      "Siguiendo consejos de personas con más experiencia, decidí inscribirme en un FP de Desarrollo de Aplicaciones Multiplataforma (DAM) y un máster en desarrollo web full stack. Sí, esto retrasaría mi incorporación al mercado laboral, pero también era una oportunidad para fortalecer mis habilidades y mi perfil profesional.",
+      "Hoy, puedo incluir en mi currículum estos logros académicos y, gracias a ello, ya he obtenido tres entrevistas. Aunque aún no tengo un empleo fijo, estoy en el camino correcto. Además, me inscribí en un curso presencial de 580 horas con prácticas incluidas, porque creo firmemente que cada experiencia suma.",
+      "Lo más valioso que he aprendido es que la formación reglada no solo te enseña conocimientos técnicos, sino también disciplina, enfoque y la importancia de trabajar en equipo.",
+      "Ahora estoy cerca de completar el primer año de mi FP y de presentar el proyecto final del máster. Esta etapa ha sido emocionante y me siento cada vez más preparado para afrontar los retos del sector IT. Inscribirme en estas formaciones ha sido una de las mejores decisiones que he tomado en los últimos años.",
+      "El próximo objetivo es claro: seguir aprendiendo, adaptarme a los cambios rápidos del mundo tecnológico y continuar haciendo realidad mi deseo de ser un desarrollador profesional.",
+    ],
+  },
+  {
     id: 1,
     tag: "vibecoding",
     title: "Que es esto del vibe coding?",
