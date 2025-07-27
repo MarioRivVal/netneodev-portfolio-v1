@@ -40,7 +40,7 @@ export const tools = [
     id: 7,
     name: "Mongo DB",
     img: "mongodb",
-    fav: false,
+    fav: true,
   },
   {
     id: 8,
@@ -52,7 +52,7 @@ export const tools = [
     id: 9,
     name: "Node JS",
     img: "nodejs",
-    fav: false,
+    fav: true,
   },
   {
     id: 10,
@@ -130,9 +130,9 @@ export const education = [
 export const workExperience = [
   {
     id: 1,
-    year: "Octubre 2023 Actualidad",
-    subject: "Desarrollador Autonomo",
-    school: "NetNeo Dev",
+    year: "2022 - Actualidad",
+    subject: "Desarrollador Fullstack Autonomo",
+    school: "netneo.es",
     img: "netneo",
     description:
       "Creación y diseño de páginas y aplicaciones web, optimizando la funcionalidad y la experiencia del usuario en diversas plataformas.",

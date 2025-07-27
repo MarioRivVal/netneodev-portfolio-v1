@@ -1,5 +1,29 @@
 export const projectsData = [
   {
+    id: 16,
+    title: "Bankneo App",
+    type: "Aplicación Web",
+    url: "https://bankneo.netlify.app/",
+    gitURL: "https://github.com/MarioRivVal/Bankneo-Simulated-Banking-App",
+    img: "bankneo",
+    description:
+      "Una simulación completamente interactiva y educativa de una aplicación bancaria digital, desarrollada solo con frontend. Este proyecto permite a los usuarios realizar operaciones bancarias típicas como inicio de sesión, transferencias, solicitudes de préstamos y pago de facturas, todo sin datos reales ni servicios de backend. Construido con TypeScript, Vite y CSS, presenta una arquitectura limpia, diseño modular, validaciones visuales y lógica simulada para imitar flujos reales del mundo bancario.",
+    technologies: ["CSS3", "Figma", "TypeScript", "Vite"],
+    favorite: true,
+  },
+  {
+    id: 15,
+    title: "By Carla Herrero",
+    type: "Pagina web",
+    url: "https://bycarlaherrero.com/",
+    gitURL: "",
+    img: "carla-herrero",
+    description:
+      "Desarrollo de una página web real para una agencia de marketing digital y gestión de redes sociales.Prototipado en Figma y desarrollo frontend con JavaScript, ReactJS y CSS modular. Incluye diseño responsive, SEO on-page, medidas de seguridad web y despliegue en producción. Incorpora una sección autogestionable protegida por contraseña para contenido dinámico. Gestión completa del proyecto como Product Owner",
+    technologies: ["CSS3", "Figma", "React JS", "Node JS"],
+    favorite: true,
+  },
+  {
     id: 14,
     title: "CV Digital",
     type: "Pagina web",
@@ -95,7 +119,7 @@ export const projectsData = [
     description:
       "La aplicación Calorie Tracker es una aplicación web responsive diseñada con Figma para ayudar a los usuarios a llevar un registro de las calorías consumidas y quemadas. Cuenta con listas separadas para actividades de alimentación y ejercicio, utilizando conceptos avanzados de React como hooks personalizados, memoización, efectos y reductores para una gestión eficiente del estado. La aplicación está construida utilizando Vite, React, TypeScript y Tailwind CSS, asegurando una interfaz de usuario moderna y responsive. Animaciones suaves mejoran la versión móvil de la aplicación, proporcionando una experiencia agradable al usuario.",
     technologies: ["Figma", "React JS", "Tailwind", "TypeScript"],
-    favorite: true,
+    favorite: false,
   },
   {
     id: 6,
@@ -107,7 +131,7 @@ export const projectsData = [
     description:
       "Este es mi primer portfolio que muestra mis habilidades y proyectos, con un enfoque en un diseño limpio, animaciones fluidas y un rendimiento eficiente. Está construido usando HTML, CSS y potenciado por clases de JavaScript, adhiriéndose a las mejores prácticas y optimizado para motores de búsqueda. La interfaz de usuario presenta agradables animaciones utilizando la API de Observer, dibujos SVG, desplazamiento de imágenes y una barra de navegación fija para una experiencia de usuario mejorada.",
     technologies: ["HTML5", "CSS3", "Sass", "JavaScript"],
-    favorite: true,
+    favorite: false,
   },
   {
     id: 5,

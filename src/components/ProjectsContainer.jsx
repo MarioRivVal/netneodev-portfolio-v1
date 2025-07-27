@@ -99,7 +99,7 @@ const ProjectsContainer = () => {
 
           <div className="project-alldetails-tools">
             {projectSelected.technologies
-              ? getTechnologies().map((item,i) => (
+              ? getTechnologies().map((item, i) => (
                   <div className="tool-small-box" key={i}>
                     <img
                       className="tool-small-img"
@@ -115,28 +115,37 @@ const ProjectsContainer = () => {
             {projectSelected.description}
           </p>
           <div className="project-alldetails-btns">
-            <a
-              href={projectSelected.url}
-              className="link-btn clickable item-active"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Pruebalo
-              <div className="small-icon">
-                <ArrowRightIcon />
-              </div>
-            </a>
-            <a
-              href={projectSelected.gitURL}
-              className="link-btn clickable"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Codigo
-              <div className="small-icon">
-                <ArrowRightIcon />
-              </div>
-            </a>
+            {projectSelected.url ? (
+              <a
+                href={projectSelected.url}
+                className="link-btn clickable item-active"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pruebalo
+                <div className="small-icon">
+                  <ArrowRightIcon />
+                </div>
+              </a>
+            ) : (
+              ""
+            )}
+
+            {projectSelected.gitURL ? (
+              <a
+                href={projectSelected.gitURL}
+                className="link-btn clickable"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Codigo
+                <div className="small-icon">
+                  <ArrowRightIcon />
+                </div>
+              </a>
+            ) : (
+              ""
+            )}
           </div>
         </div>
 

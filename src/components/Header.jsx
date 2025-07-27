@@ -25,12 +25,12 @@ const Header = ({ handleOpenModal }) => {
             data-section="post"
             onClick={(e) => handleOpenModal(e)}
           >
-            <a>
+            {/* <a>
               Mis Posts
               <div className="small-icon">
                 <BlogIcon />
               </div>
-            </a>
+            </a> */}
           </li>
         </ul>
       </div>

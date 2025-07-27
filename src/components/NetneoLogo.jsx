@@ -5,7 +5,7 @@ const NetneoLogo = () => {
       <NetneoIcon />
       <div>
         <p className="ticket-name">netneo.es</p>
-        <p className="ticket-job">web-apps</p>
+        <p className="ticket-job">web-apps-ia</p>
       </div>
     </div>
   );

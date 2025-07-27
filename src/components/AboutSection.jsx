@@ -2,6 +2,7 @@
 import { useTiltEffect } from "../functions";
 import { BlogIcon } from "./Icons";
 import SocialIcons from "./SocialIcons";
+import { DownloadIcon } from "./Icons";
 
 const AboutSection = ({ handleOpenModal }) => {
   useTiltEffect(".stats-box div");
@@ -32,7 +33,7 @@ const AboutSection = ({ handleOpenModal }) => {
           <p>
             Como desarrollador web con más de tres años de experiencia, he
             tenido la oportunidad de crear y gestionar más de 10 proyectos
-            personales y 2 proyectos para clientes reales.
+            personales y 4 proyectos para clientes reales.
           </p>
           <p>
             Amplio conocimiento de herramientas útiles para el desarrollo y
@@ -65,6 +66,16 @@ const AboutSection = ({ handleOpenModal }) => {
         </div>
       </div>
       <a
+        href="documents/CV_Mario_Rivera_esp_digital.pdf"
+        download
+        className="btn-violet"
+      >
+        Descarga CV
+        <div className="small-icon">
+          <DownloadIcon />
+        </div>
+      </a>
+      {/* <a
         className="btn-violet"
         data-section="blog"
         onClick={(e) => handleOpenModal(e)}
@@ -73,7 +84,7 @@ const AboutSection = ({ handleOpenModal }) => {
         <div className="small-icon">
           <BlogIcon />
         </div>
-      </a>
+      </a> */}
     </section>
   );
 };
