@@ -59,7 +59,7 @@ const Navigation = () => {
               Currículum
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="navigation-link"
               href="#testimonial"
@@ -67,7 +67,7 @@ const Navigation = () => {
             >
               Testimonios
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

@@ -10,14 +10,15 @@ const ResumeSection = () => {
     <section className="section" id="resume">
       <h4 className="title-section">Currículum</h4>
       <h2 className="secondary-title">
-        <span>Educación y</span>
-        <span>Experiencia.</span>
+        <span>Formación</span>
+        <span>y experiencia técnica</span>
       </h2>
       <p className="resume-text">
-        Autodidacta apasionado con más de 8 cursos online en programación
-        completados. Nivel C1 en inglés y portugués, y C2 en italiano y español.
-        Excelentes habilidades de comunicación y liderazgo adquiridas durante
-        mas de 15 años como coordinador de eventos en cruceros y hoteles.
+        Perfil técnico en constante evolución, con formación en desarrollo web
+        fullstack, desarrollo de aplicaciones multiplataforma y experiencia
+        práctica en proyectos reales. Combino competencias técnicas con
+        habilidades de comunicación, liderazgo y trato con cliente desarrolladas
+        en entornos internacionales.
       </p>
 
       <div className="resume-section">
@@ -36,7 +37,7 @@ const ResumeSection = () => {
       </div>
 
       <div className="resume-section">
-        <h3 className="tertiary-title">Mi herramientas favoritas</h3>
+        <h3 className="tertiary-title">Stack tecnológico</h3>
         <div className="tools-box">
           {tools
             .filter((item) => item.fav)
@@ -47,10 +48,10 @@ const ResumeSection = () => {
       </div>
       <a
         className="btn-violet"
-        href="documents/CV_Mario_Rivera_esp_digital.pdf"
+        href="documents/CV-MARIO-RIVERA-ESP-2026.pdf"
         download
       >
-        Descarga CV
+        Descarga CV técnico
         <div className="small-icon">
           <DownloadIcon />
         </div>

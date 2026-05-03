@@ -53,8 +53,8 @@ const App = () => {
           <PortfolioSection handleOpenModal={handleOpenModal} />
           <AboutSection handleOpenModal={handleOpenModal} />
           <ResumeSection />
-          <TestimonialsSection />
-          <FormSection />
+          {/* <TestimonialsSection /> */}
+          {/* <FormSection /> */}
           <Footer />
         </div>
         <div className="big-circle"></div>

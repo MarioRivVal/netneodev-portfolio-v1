@@ -1,5 +1,61 @@
 export const projectsData = [
   {
+    id: 19,
+    title: "Gastronomiate",
+    type: "Aplicación Web",
+    url: "https://app.gastronomiate.com/restaurantes",
+    gitURL: "",
+    img: "gastro",
+    description:
+      "Gastronomiate es una plataforma web B2B para la gestión de reservas en restaurantes para la zona de Barriloche(Argentina), desarrollada con backend en NestJS + TypeScript, frontend en Next.js y base de datos PostgreSQL. Implementa una arquitectura hexagonal en el backend, con API REST, control de acceso por roles, notificaciones transaccionales por email e integración de pagos. Además, está desplegada en producción mediante Docker, Coolify y Hetzner VPS.",
+    technologies: [
+      "NestJS",
+      "Figma",
+      "TypeScript",
+      "Tailwind",
+      "Next.js",
+      "Docker",
+      "MySQL",
+    ],
+    favorite: true,
+  },
+  {
+    id: 18,
+    title: "El Whoper",
+    type: "Sitio Web",
+    url: "https://www.elwhopercomics.es/",
+    gitURL: "",
+    img: "whoper",
+    description:
+      "Comic Designer Portfolio es una SPA desarrollada con React, TypeScript y Vite para presentar servicios de diseño de cómics personalizados. El sitio muestra ilustraciones, viñetas y propuestas creativas para clientes interesados en contenido visual original. Cuenta con una arquitectura basada en componentes, diseño responsive, CSS Modules y un diseño 100% original creado en Figma por NetNeo",
+    technologies: ["React", "Figma", "TypeScript", "Vite"],
+    favorite: true,
+  },
+  {
+    id: 17,
+    title: "RDA Padel",
+    type: "Sitio Web",
+    url: "https://www.rdapadel.com/",
+    gitURL: "",
+    img: "rda",
+    description:
+      "RDA Academia de Pádel es una SPA desarrollada con ReactJS y Vite para una escuela de pádel. El sitio incluye secciones para noticias, eventos y clases, con un diseño original creado en Figma por NetNeo. El frontend utiliza CSS Modules para una estructura modular, mantenible y adaptada a diferentes dispositivos.",
+    technologies: ["React", "Figma", "JavaScript", "Vite"],
+    favorite: true,
+  },
+  {
+    id: 15,
+    title: "By Carla Herrero",
+    type: "Sitio web",
+    url: "https://bycarlaherrero.com/",
+    gitURL: "",
+    img: "carla-herrero",
+    description:
+      "Desarrollo de una página web real para una agencia de marketing digital y gestión de redes sociales.Prototipado en Figma y desarrollo frontend con JavaScript, ReactJS y CSS modular. Incluye diseño responsive, SEO on-page, medidas de seguridad web y despliegue en producción. Incorpora una sección autogestionable protegida por contraseña para contenido dinámico. Gestión completa del proyecto como Product Owner",
+    technologies: ["CSS3", "Figma", "React", "Node.js", "JavaScript"],
+    favorite: true,
+  },
+  {
     id: 16,
     title: "Bankneo App",
     type: "Aplicación Web",
@@ -9,20 +65,9 @@ export const projectsData = [
     description:
       "Una simulación completamente interactiva y educativa de una aplicación bancaria digital, desarrollada solo con frontend. Este proyecto permite a los usuarios realizar operaciones bancarias típicas como inicio de sesión, transferencias, solicitudes de préstamos y pago de facturas, todo sin datos reales ni servicios de backend. Construido con TypeScript, Vite y CSS, presenta una arquitectura limpia, diseño modular, validaciones visuales y lógica simulada para imitar flujos reales del mundo bancario.",
     technologies: ["CSS3", "Figma", "TypeScript", "Vite"],
-    favorite: true,
+    favorite: false,
   },
-  {
-    id: 15,
-    title: "By Carla Herrero",
-    type: "Pagina web",
-    url: "https://bycarlaherrero.com/",
-    gitURL: "",
-    img: "carla-herrero",
-    description:
-      "Desarrollo de una página web real para una agencia de marketing digital y gestión de redes sociales.Prototipado en Figma y desarrollo frontend con JavaScript, ReactJS y CSS modular. Incluye diseño responsive, SEO on-page, medidas de seguridad web y despliegue en producción. Incorpora una sección autogestionable protegida por contraseña para contenido dinámico. Gestión completa del proyecto como Product Owner",
-    technologies: ["CSS3", "Figma", "React JS", "Node JS"],
-    favorite: true,
-  },
+
   {
     id: 14,
     title: "CV Digital",
@@ -46,7 +91,7 @@ export const projectsData = [
     description:
       "Find It, una app inspirada en Pinterest que desarrollé para mi Fullstack Master. Gestión de solicitudes API con límites, optimizando recursos con LocalStorage y animaciones fluidas mediante la API de Observer. Diseñada con Figma y desarrollada con Vite y Vanilla JavaScript, enfrenté retos como sliders interactivos, Dark/Light mode persistente y diseño responsivo.",
     technologies: ["Figma", "CSS3", "HTML5", "JavaScript", "Vite"],
-    favorite: true,
+    favorite: false,
   },
   {
     id: 12,
@@ -70,7 +115,7 @@ export const projectsData = [
     description:
       "Este proyecto es un sitio web para una cafetería diseñado como una aplicación de página única (SPA). Con un diseño moderno y responsivo, este sitio web presenta animaciones fluidas y componentes reutilizables desarrollados con Vanilla JavaScript.",
     technologies: ["Figma", "CSS3", "HTML5", "JavaScript", "Vite"],
-    favorite: true,
+    favorite: false,
   },
   {
     id: 10,

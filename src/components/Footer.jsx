@@ -7,10 +7,17 @@ const Footer = () => {
     <footer className="footer">
       <SocialIcons />
       <p>
-        {getCurrentYear()} <span>netneo.es</span> Derechos Reservados
+        {getCurrentYear()}{" "}
+        <span>
+          {" "}
+          <a href="https://www.netneo.es/" target="_blank">
+            netneo.es
+          </a>
+        </span>{" "}
+        Derechos Reservados
       </p>
       <p>
-        Mira el código de esta página en{" "}
+        Código disponible en{" "}
         <span>
           <a
             href="https://github.com/MarioRivVal/netneodev-portfolio-v1"

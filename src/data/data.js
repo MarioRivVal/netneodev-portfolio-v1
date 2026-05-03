@@ -1,9 +1,33 @@
 export const tools = [
   {
+    id: 17,
+    name: "NestJS",
+    img: "nest",
+    fav: true,
+  },
+  {
+    id: 19,
+    name: "Next.js",
+    img: "next",
+    fav: true,
+  },
+  {
+    id: 20,
+    name: "Docker",
+    img: "docker",
+    fav: true,
+  },
+  {
+    id: 21,
+    name: "Azure",
+    img: "azure",
+    fav: true,
+  },
+  {
     id: 1,
     name: "CSS3",
     img: "css3",
-    fav: true,
+    fav: false,
   },
   {
     id: 2,
@@ -38,25 +62,25 @@ export const tools = [
   },
   {
     id: 7,
-    name: "Mongo DB",
+    name: "MongoDB",
     img: "mongodb",
     fav: true,
   },
   {
     id: 8,
-    name: "My SQL",
+    name: "MySQL",
     img: "mysql",
     fav: true,
   },
   {
     id: 9,
-    name: "Node JS",
+    name: "Node.js",
     img: "nodejs",
     fav: true,
   },
   {
     id: 10,
-    name: "React JS",
+    name: "React",
     img: "reactjs",
     fav: true,
   },
@@ -72,7 +96,7 @@ export const tools = [
     id: 12,
     name: "Tailwind",
     img: "tailwind",
-    fav: false,
+    fav: true,
   },
   {
     id: 13,
@@ -103,8 +127,8 @@ export const tools = [
 export const education = [
   {
     id: 1,
-    year: "2024 - 2026",
-    subject: " Formación profesional DAM",
+    year: "Sep 2024 - May 2026",
+    subject: "Formación profesional DAM",
     school: "The Power Business School - España",
     img: "the-power",
     description: " FP Oficial en Desarrollo de aplicaciones multiplataforma.",
@@ -119,7 +143,7 @@ export const education = [
   },
   {
     id: 3,
-    year: "Ene 2024 - May 2024",
+    year: "Ene 2023 - May 2023",
     subject: "Desarrollo Aplicaciones con Tecnologias Web",
     school: "Grupo Aspasia - España",
     img: "aspasia",
@@ -129,13 +153,22 @@ export const education = [
 ];
 export const workExperience = [
   {
+    id: 3,
+    year: "2025 - Actualidad",
+    subject: "Backend Developer | Azure DevOps & Application Insights",
+    school: "VML The Cocktail",
+    img: "tck",
+    description:
+      "Desarrollo de soluciones web completas con React, Node.js, APIs y despliegue en infraestructura propia, combinando visión técnica, experiencia de usuario y validación directa con cliente.",
+  },
+  {
     id: 1,
     year: "2022 - Actualidad",
-    subject: "Desarrollador Fullstack Autonomo",
+    subject: "Desarrollador Freelance & Product Owner",
     school: "netneo.es",
     img: "netneo",
     description:
-      "Creación y diseño de páginas y aplicaciones web, optimizando la funcionalidad y la experiencia del usuario en diversas plataformas.",
+      "Desarrollo de soluciones web completas con React, Node.js, APIs y despliegue en infraestructura propia, combinando visión técnica, experiencia de usuario y validación directa con cliente.",
   },
   {
     id: 2,
@@ -144,7 +177,7 @@ export const workExperience = [
     school: "MSC Cruises",
     img: "msc",
     description:
-      "Coordinación y supervisión de actividades y eventos de entretenimiento a bordo, garantizando experiencias memorables para los pasajeros.",
+      "Coordinación de equipos, gestión de actividades y comunicación con clientes internacionales en entornos multiculturales. Desarrollo de habilidades de liderazgo, organización y resolución de problemas.",
   },
 ];
 

@@ -5,15 +5,15 @@ import { projectsData } from "../data/projects";
 
 const PortfolioSection = ({ handleOpenModal }) => {
   const mainProjects = projectsData.filter(
-    (project) => project.favorite === true
+    (project) => project.favorite === true,
   );
 
   return (
     <section className="section" id="portfolio">
-      <h4 className="title-section">Mis Trabajos</h4>
+      <h4 className="title-section">Proyectos destacados</h4>
       <h2 className="secondary-title">
-        <span>Revisa mis mejores</span>
-        <span>proyectos.</span>
+        <span>Aplicaciones web, plataformas y herramientas</span>
+        <span>desarrolladas desde la idea hasta el despliegue.</span>
       </h2>
       <div className="portfolio-projects-box">
         {mainProjects.map((project) => (

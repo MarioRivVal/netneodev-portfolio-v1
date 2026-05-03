@@ -1,6 +1,6 @@
 import NetneoLogo from "./NetneoLogo";
 import { languages } from "../data/data";
-import { smoothScrolling } from "../functions";
+import { SendIcon } from "./Icons";
 
 const TicketSide = () => {
   return (
@@ -18,13 +18,13 @@ const TicketSide = () => {
         <div className="ticket-details-box">
           <div className="ticket-profession-box">
             <p className="profession">Profesión:</p>
-            <p>Desarrollador Web</p>
-            <p>FullStack</p>
+            <p>APIs · IA Generativa</p>
+            <p>SaaS · Producto digital</p>
           </div>
           <div className="ticket-profession-box">
             <p className="profession">Contactos:</p>
             <a href="tel:+34642469683">+34 642 469 683</a>
-            <a href="mailto:netneo.web@gmail.com">info@netneo.es</a>
+            <a href="mailto:netneo.web@gmail.com">netneo.web@gmail.com</a>
           </div>
           <div className="ticket-languages-box">
             <p className="languages">Idiomas hablados:</p>
@@ -42,14 +42,12 @@ const TicketSide = () => {
               ))}
             </div>
           </div>
-          <div
-            className="ticket-social-box"
-            onClick={(e) => smoothScrolling(e)}
-          >
-            <a className="btn-violet" href="#contact">
-              Trabajemos Juntos!
-            </a>
-          </div>
+          <a className="btn-violet" href="mailto:netneo.web@gmail.com">
+            Contactar
+            <div className="small-icon">
+              <SendIcon />
+            </div>
+          </a>
         </div>
       </div>
     </section>
