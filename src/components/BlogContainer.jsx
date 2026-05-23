@@ -36,7 +36,7 @@ const BlogContainer = () => {
 
   return (
     <div className="blog-container">
-      <h4 className="title-section">Mi Blog</h4>
+      <h4 className="title-section">Blog</h4>
       <h2 className="secondary-title">
         {" "}
         <span>Dev y Experiencias</span>
@@ -55,6 +55,10 @@ const BlogContainer = () => {
                 alt="blog-img"
               />
             </picture>
+
+            <div className="post-date">
+              <p>{item.date}</p>
+            </div>
 
             <div className="blog-details">
               <p className="blog-title">{item.title}</p>
@@ -96,9 +100,16 @@ const BlogContainer = () => {
                 <Fragment key={i}>
                   <p className="blog-part">{item.part}</p>
                   <p className="blog-fulltext">
-                    {item.paragraph.map((item, i) => (
-                      <span key={i}>{item}</span>
-                    ))}
+                    {item.paragraph.map((p, j) =>
+                      typeof p === "string" ? (
+                        <span key={j}>{p}</span>
+                      ) : (
+                        <div key={j} className="blog-code-block">
+                          <span className="blog-code-label">{p.label}</span>
+                          <pre><code>{p.content}</code></pre>
+                        </div>
+                      )
+                    )}
                   </p>
                 </Fragment>
               ))

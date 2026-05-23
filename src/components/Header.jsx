@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import { DownloadIcon } from "./Icons";
+import { BlogIcon, DownloadIcon } from "./Icons";
 
-const Header = () => {
+const Header = ({ handleOpenModal }) => {
   return (
     <header className="header">
       <div>
@@ -25,18 +25,18 @@ const Header = () => {
             </a>
           </li>
 
-          {/* <li
-            className=" clickable"
-            data-section="post"
+          <li
+            className="item-active clickable"
+            data-section="blog"
             onClick={(e) => handleOpenModal(e)}
           >
             <a>
-              Mis Posts
+              Blog
               <div className="small-icon">
                 <BlogIcon />
               </div>
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </header>

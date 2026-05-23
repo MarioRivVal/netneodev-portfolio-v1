@@ -47,7 +47,7 @@ const App = () => {
         <TicketSide />
         <div className="content-box">
           <main className="main-box" id="header">
-            <Navigation />
+            <Navigation handleOpenModal={handleOpenModal} />
             <Header handleOpenModal={handleOpenModal} />
           </main>
           <PortfolioSection handleOpenModal={handleOpenModal} />

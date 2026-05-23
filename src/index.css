@@ -1112,6 +1112,39 @@ footer {
   margin-bottom: 4rem;
 }
 
+.blog-code-block {
+  background-color: var(--black-color);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin: 0.5rem 0;
+  break-inside: avoid;
+}
+
+.blog-code-label {
+  display: block;
+  padding: 0.4rem 1.2rem;
+  font-size: 1.2rem;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.05em;
+}
+
+.blog-code-block pre {
+  margin: 0;
+  padding: 1.4rem 1.6rem;
+  overflow-x: auto;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--white-color);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.blog-code-block code {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .fulltext-icon,
 .project-details-icon {
   position: sticky;

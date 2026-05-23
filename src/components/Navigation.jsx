@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { smoothScrolling } from "../functions";
 
-const Navigation = () => {
+const Navigation = ({ handleOpenModal }) => {
   const [isNavActive, setIsNavActive] = useState(false);
 
   const handleSmoothScrolling = (e) => {
@@ -57,6 +57,19 @@ const Navigation = () => {
               onClick={(e) => handleSmoothScrolling(e)}
             >
               Currículum
+            </a>
+          </li>
+          <li>
+            <a
+              className="navigation-link"
+              href="#"
+              data-section="blog"
+              onClick={(e) => {
+                handleOpenModal(e);
+                setIsNavActive(false);
+              }}
+            >
+              Mi Blog
             </a>
           </li>
           {/* <li>

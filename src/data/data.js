@@ -122,6 +122,18 @@ export const tools = [
     img: "vite",
     fav: false,
   },
+  {
+    id: 17,
+    name: "Claude API",
+    img: "claude",
+    fav: true,
+  },
+  {
+    id: 18,
+    name: "OpenIA API",
+    img: "gpt",
+    fav: true,
+  },
 ];
 
 export const education = [
